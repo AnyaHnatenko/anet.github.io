@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latex</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript" async
+		  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+		</script>
+		<style>
+		body{
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+		h2{
+			margin-left: 20px;
+		}
+		.itlc{
+			font-style: italic;
+		}
+		h3{
+			font-family: Verdana, sans-serif;
+			font-size: 15px;
+			font-style: italic;
+			margin-left: 40px;
+		}
+		.main{
+			/*padding:20px 0 20px 0;*/
+			text-align:center;
+			font-family: Tahoma, sans-serif;
+			font-size: 32px;
+		}
+		.aboutme{
+			text-align: center;
+			font-size: 20px;
+			padding:10px 0 10px 0px;
+			font-style: italic;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<h1 class="main">Математичний аналіз</h1>
+			<blockquote>
+			 <h3> Завдання 1. </h3>
+			 Знайти похідну за змінною х   $${\left({1+\sin(2 x)}\right)^{2}}$$
+			 Тобто   $${\left({{\left({1+\sin(2 x)}\right)^{2}}}\right)'}$$
+			 
+		 
+          <h3>Розв'язання:</h3>
+          <p>
+		  $${\left({{\left({1+\sin(2 x)}\right)^{2}}}\right)'}=2 {\left({1+\sin(2 x)}\right)'} {(1+\sin(2 x))}=2 {({\left({\sin(2 x)}\right)'}+{\left({1}\right)'})} {(1+\sin(2 x))}=2 \cos(2 x) {\left({2 x}\right)'} {(1+\sin(2 x))}=4 \cos(2 x) {(1+\sin(2 x))} {\left({x}\right)'}=4 \cos(2 x) {(1+\sin(2 x))}$$
+           
+            <br><br>
+            <h3>Відповідь:</h3>
+            $${{{\left({{\left({1+\sin(2 x)}\right)^{2}}}\right)'}}={4 \cos(2 x) {(1+\sin(2 x))}}}$$
+          </p>
+
+				<h3> Завдання 2. </h3>
+			 Знайти ${\left({y}\right)'_{x}}$ для функції   $${{2 \frac{\sin(x)}{{{y}^{2}}}}={x+y}}$$
+			 
+		 
+          <h3>Розв'язання:</h3>
+          <p>
+		  $${{2 \frac{\sin(x)}{{{y}^{2}}}-x-y}={0}}$$
+$${{F}={2 \frac{\sin(x)}{{{y}^{2}}}-x-y}} $$
+
+
+Продиференціюємо F, враховуючи що у функція від х
+
+
+$${\left({2 \frac{\sin(x)}{{{y}^{2}}}-x-y}\right)'_{x}} = {\left({- x}\right)'_{x}}+{\left({2 \frac{\sin(x)}{{{y}^{2}}}}\right)'_{x}}+{\left({- y}\right)'_{x}} = -{\left({x}\right)'_{x}}+2 {\left({\frac{\sin(x)}{{{y}^{2}}}}\right)'_{x}}-{\left({y}\right)'_{x}} = -1-{\left({y}\right)'_{x}}+2 \sin(x) {\left({\frac{1}{{{y}^{2}}}}\right)'_{x}}+2 \frac{{\left({\sin(x)}\right)'_{x}}}{{{y}^{2}}} = -1-4 \frac{ \sin(x) {\left({y}\right)'_{x}}}{{{y}^{3}}}-{\left({y}\right)'_{x}}+2 \frac{\cos(x)}{{{y}^{2}}} = \frac{2 \cos(x) y-4 \sin(x) {\left({y}\right)'_{x}}- {\left({y}\right)'_{x}} {{y}^{3}}-{{y}^{3}}}{{{y}^{3}}}
+    {{\frac{2 \cos(x) y-4 \sin(x) {\left({y}\right)'_{x}}- {\left({y}\right)'_{x}} {{y}^{3}}-{{y}^{3}}}{{{y}^{3}}}}={0}} 
+{{{\left({y}\right)'_{x}}}={\frac{2 \cos(x) y-{{y}^{3}}}{4 \sin(x)+{{y}^{3}}}}} $$       
+            <br><br>
+            <h3>Відповідь:</h3>
+            $${{{\left({y}\right)'_{x}}}={\frac{2 \cos(x) y-{{y}^{3}}}{4 \sin(x)+{{y}^{3}}}}}$$
+          </p>
+		  
+		  <h3> Завдання 3. </h3>
+			 Знайти похідну  ${\left({y}\right)'_{x}}$ функції :
+			 $$\left\{\begin{array}{l}{{{x}={ \sin(t) t}}}\\{{{y}={\frac{1}{t}}}}\end{array}\right.$$
+			 
+		 
+          <h3>Розв'язання:</h3>
+          <p>
+		 $${{{\left({y}\right)'_{x}}}={\frac{{\left({y}\right)'_{t}}}{{\left({x}\right)'_{t}}}}}$$
+
+$${{{\left({x}\right)'_{t}}}={{\left({ \sin(t) t}\right)'_{t}}}};{{{\left({y}\right)'_{t}}}={{\left({\frac{1}{t}}\right)'_{t}}}}$$ 
+
+$${\left({ \sin(t) t}\right)'_{t}} =  {\left({\sin(t)}\right)'_{t}} t+ \sin(t) {\left({t}\right)'_{t}}=  \cos(t) t+\sin(t)$$
+
+$${\left({\frac{1}{t}}\right)'_{t}} = -\frac{1}{{{t}^{2}}}$$
+
+$${\left({y}\right)'_{x}} = {\frac {-\frac{1}{{{t}^{2}}}}{ \cos(t) t+\sin(t)}} = -\frac{1}{ {( \cos(t) t+\sin(t))} {{t}^{2}}}$$    
+            <br><br>
+            <h3>Відповідь:</h3>
+           $${{{\left({y}\right)'_{x}}}={-\frac{1}{ {( \cos(t) t+\sin(t))} {{t}^{2}}}}}$$
+          </p>
+		  
+			</h3>
+            <h3> Завдання 4. </h3>
+		 
+             Знайти суму ряда
+			 
+		  $\sum\limits_{n=1}^{\infty}(3n+1)$
+          <h3>Розв'язання:</h3>
+          <p>
+		 $$u_n=3n+1$$
+		 $$S_n=u_1+u_2+u_3+u_4+\ldots+u_n=4+7+10+13+\ldots+3n+1$$
+		 Сума перших членів прогресії: $$ 4+7+10+13+\ldots+3n+1=\frac{4+3n+1}{2}\cdot n=\frac{3n+5}{2}\cdot{n}. $$
+		 $$Отже,S_n=\frac{3n+5}{2}\cdot n$$
+		 $$Найдем \lim_{n\to\infty}S_n:$$
+
+$$ \lim_{n\to\infty}S_n=\lim_{n\to\infty}\left(\frac{3n+5}{2}\cdot n\right)=+\infty. $$
+Так як $\lim_{n\to\infty}S_n=+\infty$, то ряд розбіжний,тобто суми у даного ряда немає.
+
+            <br><br>
+            <h3>Відповідь:ряд розбіжний.
+			</h3>
+			  <h3> Завдання 5. </h3>
+		 
+             Знайти $\int\frac{\sin^4x}{\cos^2x}dx$.
+          <h3>Розв'язання:</h3>
+          <p>
+		  Згадаємо формулу $\sin^2x=1-\cos^2x$:
+		 $$ \frac{\sin^4x}{\cos^2x}=\frac{\left(1-\cos^2x\right)^2}{\cos^2x}=\frac{1-2\cos^2x+\cos^4x}{\cos^2x}= \frac{1}{\cos^2x}-\frac{2\cos^2x}{\cos^2x}+\frac{\cos^4x}{\cos^2x}=\frac{1}{\cos^2x}-2+\cos^2x. $$
+Таким чином ми спростили підінтегральний вираз.Враховуємо,що $\cos^2x=\frac{1}{2}+\frac{1}{2}\cos 2x$:$$ \frac{1}{\cos^2x}-2+\cos^2x=\frac{1}{\cos^2x}-2+\frac{1}{2}+\frac{1}{2}\cos 2x=-\frac{3}{2}+\frac{1}{\cos^2x}+\frac{1}{2}\cos 2x $$
+            Повертаючись до заданного інтегралу,враховуємо  $$ \int\frac{\sin^4x}{\cos^2x}dx=\int\left(-\frac{3}{2}+\frac{1}{\cos^2x}+\frac{1}{2}\cos 2x\right)dx= \int\left(-\frac{3}{2}\right)dx+\int\frac{1}{\cos^2x}dx+\int\frac{1}{2}\cos 2xdx=\\ =-\frac{3}{2}\cdot\int dx+\int\frac{dx}{\cos^2x}+\frac{1}{4}\int\cos 2xd(2x)= -\frac{3}{2}\cdot x+tg x+\frac{1}{4}\cdot\sin 2x+C=-\frac{3x}{2}+tg x+\frac{\sin 2x}{4}+C. $$
+			<br><br>
+            <h3>Відповідь:$\int\frac{\sin^4x}{\cos^2x}dx=-\frac{3x}{2}+tg x+\frac{\sin 2x}{4}+C$.
+			</h3>
+          </p>
+		 
+			</blockquote>
+		</div>
+	</body>
+</html>
