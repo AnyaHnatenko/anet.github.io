@@ -1,0 +1,58 @@
+#SinoptikInformer{
+    display: block;
+    width: 50%;
+    margin: calc(50% - 200px) auto;
+    font-size: 40px !important;
+		}
+		
+#SinoptikInformer .siMh{
+	font-size: 50px !important;
+	}
+		
+#SinoptikInformer #siHeader{
+    font-size: 15px !important;	
+	}
+table td{
+	vertical-align: middle !important;	
+		}
+	
+.siBody{
+	height: 200px !important;
+	
+	}
+	
+.siBody table {
+	height: inherit;
+	}
+	
+.SinoptikInformer .siCityName a span{
+	font-size: 27px !important;
+	}
+	
+.siLinks{
+    position: relative;
+    top: -20px;	
+	}
+	
+.SinoptikInformer .siBodyContent .siLeft .siTerm{
+transform: scale(2);
+	}
+	
+.SinoptikInformer .siBodyContent .siLeft .weatherIco{
+    position: relative;
+    left: 18px;
+    transform: scale(1.6);	
+	}
+	
+.type1 .siBodyContent .siInf, .type1c1 .siBodyContent .siInf{
+	padding-left: 37px!important;
+	}
+	
+.siInf{
+    padding-left: 35px !important;
+	}
+		
+.siInf p,
+.siInf span{
+	font-size: 20px !important;
+	}
